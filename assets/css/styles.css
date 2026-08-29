@@ -397,6 +397,8 @@ section { padding: 72px 0; }
 
   .contact-card { padding: 28px 22px; }
 
+  .service-card-body .btn { align-self: center; }
+
   .site-footer .container {
     flex-direction: column;
     text-align: center;
