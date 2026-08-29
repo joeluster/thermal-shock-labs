@@ -161,7 +161,13 @@ a { color: inherit; text-decoration: none; }
   z-index: -1;
 }
 
-.hero-content { max-width: 640px; padding-top: 80px; padding-bottom: 80px; }
+.hero-content {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
 
 .hero-eyebrow {
   color: var(--color-heat);
@@ -187,6 +193,7 @@ a { color: inherit; text-decoration: none; }
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 16px;
 }
 
