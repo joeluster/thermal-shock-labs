@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.querySelector(".nav-toggle");
-  const links = document.querySelector(".nav-mobile");
+  const links = document.querySelector(".nav-wrap");
   if (toggle && links) {
     toggle.addEventListener("click", () => links.classList.toggle("open"));
   }
